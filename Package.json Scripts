@@ -1,3 +1,6 @@
+cd ~/personal-portfolio
+
+cat > package.json << 'EOF'
 {
   "name": "personal-portfolio",
   "version": "1.0.0",
@@ -16,5 +19,17 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
-  }
+  },
+  "keywords": [
+    "portfolio",
+    "full-stack",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }
+EOF
+
+echo "✅ package.json updated!"
