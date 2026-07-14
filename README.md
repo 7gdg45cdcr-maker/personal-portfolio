@@ -1,79 +1,43 @@
-====================================
-PROJECT SUBMISSION
-====================================
+# Personal Portfolio
 
-Project Name: Personal Portfolio Website
-Type: Full-stack Web Application
-Status: ✅ COMPLETE
+A full-stack personal portfolio website to showcase projects and skills.
 
-====================================
-LINKS
-====================================
+## 🚀 Features
 
-GitHub: https://github.com/Tygerd45/coder-manager-personal-portfolio
+- Dynamic project display from MongoDB database
+- Contact form with backend storage
+- RESTful API with Express.js
+- Responsive design
+- Project and technology counters
 
-====================================
-FEATURES
-====================================
+## 🛠️ Technologies
 
-✅ Dynamic project display from MongoDB
-✅ Contact form with backend storage
-✅ RESTful API with Express.js
-✅ Responsive design
-✅ Project statistics (counters)
-✅ Technology tags
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
 
-====================================
-TECHNOLOGY STACK
-====================================
+### Backend
+- Node.js
+- Express.js
 
-Frontend: HTML5, CSS3, JavaScript
-Backend: Node.js, Express.js
-Database: MongoDB Atlas
-Tools: Nodemon, Dotenv, Cors
+### Database
+- MongoDB (Atlas)
 
-====================================
-API ENDPOINTS
-====================================
+### Tools
+- Nodemon (Development)
+- Dotenv (Environment variables)
+- Cors (Cross-origin resource sharing)
 
-GET    /api/projects          - Get all projects
-GET    /api/projects/:id      - Get single project
-POST   /api/projects          - Create project
-PUT    /api/projects/:id      - Update project
-DELETE /api/projects/:id      - Delete project
-POST   /api/contact           - Send contact message
+## 📋 Prerequisites
 
-====================================
-PROJECT STRUCTURE
-====================================
+- Node.js (v16+)
+- npm
+- MongoDB Atlas account (or local MongoDB)
 
-personal-portfolio/
-├── backend/
-│   ├── server.js
-│   └── seed.js
-├── frontend/
-│   └── index.html
-├── .env
-├── package.json
-└── README.md
+## 🔧 Installation
 
-====================================
-HOW TO RUN
-====================================
-
-1. npm install
-2. Create .env with MONGODB_URI
-3. npm run seed
-4. npm run dev
-5. Open frontend/index.html
-
-====================================
-SCREENSHOTS
-====================================
-
-✅ Screenshot showing all 3 projects displayed
-✅ Screenshot showing project details
-
-====================================
-STATUS: ✅ COMPLETE
-====================================
+1. Clone the repository:
+```bash
+git clone https://github.com/7gdg45cdcr-maker/personal-portfolio.git
+cd personal-portfolio
